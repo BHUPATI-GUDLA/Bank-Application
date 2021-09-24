@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Simple web Development Template</title>
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	/* cursor: pointer; */
+}
+
+.background {
+	background: black;
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+.nav-list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 26px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-list li a:hover {
+	color: grey;
+}
+
+.text-big {
+	font-family: 'Piazzolla', serif;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.text-small {
+	font-size: 18px;
+}
+
+.btn {
+	padding: 8px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-sm {
+	padding: 6px 10px;
+	vertical-align: middle;
+}
+
+.section {
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 90%;
+	margin: auto;
+}
+
+.section-Left {
+	flex-direction: row-reverse;
+}
+
+.paras {
+	padding: 0px 65px;
+	height: 100%;
+}
+
+.thumbnail img {
+	width: 250px;
+	
+	border: 2px solid black;
+	border-radius: 26px;
+	margin-top: 19px;
+}
+
+.center {
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	color: aquamarine;
+}
+
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+
+
+
+
+
+#slider {
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+
+      @keyframes slider {
+        0% {
+          left: 0;
+        }
+        30% {
+          left: 0;
+        }
+        33% {
+          left: -100%;
+        }
+        63% {
+          left: -100%;
+        }
+        66% {
+          left: -200%;
+        }
+        95% {
+          left: -200%;
+        }
+        100% {
+          left: 0;
+        }
+      }
+      #slider figure {
+        width: 300%;
+        position: relative;
+        animation: 9s slider infinite;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+
+      #slider figure:hover {
+        /*animation-play-state: paused; enable for pause on hover*/
+      }
+      #slider figure img {
+        width: 33.333333333%;
+        
+        float: left;
+      }
+
+
+
+</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<li><a href="#" style="font-size: larger;">Montran Bank</a></li>
+			<li><a href="signup.html">Signup</a></li>
+			<li><a href="login.html">Signin</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	<center> <h1>Welcome To Montran Bank </h1> </center>
+	
+	
+	
+	
+	<div id="slider">
+      <figure>
+        <img src="image\eduardo-soares-utWyPB8_FU8-unsplash.jpg" style="height: 700px;" />
+        <img src="image\michael-longmire-lhltMGdohc8-unsplash.jpg" style="height: 700px;" />
+        <img src="image\coin.jpg" style="height: 700px;" />
+        
+      </figure>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<footer class="background">
+		<p class="text-footer">
+			<a href="#" style="color: aliceblue;">About Us</a> &emsp; <a href="#"
+				style="color: aliceblue;">Contact us</a>
+		</p>
+	</footer>
+</body>
+</html>
