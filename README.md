@@ -37,6 +37,7 @@ In this bank application I was created few bank application and ATM features as 
 ```bash
   create table transaction(username varchar(20),Acc_number numeric(10),Date_time varchar(100), Activity varchar(10) , Amount int);
 ```
+** You can also refer my temp.sql file for sql queries which i used in this project. It will help you to setup your database part.
 
 6) connect Tomcat server and Eclips IDE.
 7) Create Dynamic Project in Eclips.
